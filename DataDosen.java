@@ -17,7 +17,6 @@ public class DataDosen {
         }
     }
 
-    // Bubble Sort ASC (termuda -> tertua)
     void SortingASC() {
         for (int i = 0; i < idx - 1; i++) {
             for (int j = 0; j < idx - i - 1; j++) {
@@ -30,7 +29,6 @@ public class DataDosen {
         }
     }
 
-    // Selection Sort DSC (tertua -> termuda)
     void sortingDSC() {
         for (int i = 0; i < idx - 1; i++) {
             int max = i;
